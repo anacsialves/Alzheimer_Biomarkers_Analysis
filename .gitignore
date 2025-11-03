@@ -1,0 +1,7 @@
+__pycache__/
+.vscode/
+knn.db
+Features para teste.csv 
+Features para trino.csv
+Dataset_Alzheimers.csv
+seleção de atributos.ipynb
