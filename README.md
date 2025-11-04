@@ -17,3 +17,24 @@ A seleção de dados de treino e teste e os devidos tratamentos de dados foram r
 
 Cada integrante selecionou modelos de linguagem para testar. A seleção de atributos e otimização de hiperparâmetros foram de responsabilidade de cada um, uma vez que cada modelo tem sua particularidade.
 Como nosso projeto objetiva a previsão da doença de pacientes, a métrica padrão utilizada para otimização de hiperparâmetros foi a sensibilidade (recall), a fim de que nossos modelos sejam capazes de prever pacientes classificados como impaired com precisão, mas nada impede que outras métricas tenham sido discutidas em cada modelo.
+
+### Arquivos importantes:
+$\cdot$ Dataset_Alzheimers.csv: é o dataset principal de nosso modelo.
+
+$\cdot$ Features para treino.csv e Target para treino.csv: guardam as features e target que serão usadas para alimentar os modelos.
+
+$\cdot$ Features para teste.csv e Target para teste.csv: guardam as features e target para teste e validação.
+
+$\cdot$ Tratamento geral.ipynb: Executa o tratamento de dados eliminando colunas vazias, normalizando dados categóricos das features e realiza train-test split. Os arquivos listados nos dois itens anteriores são gerados pelo dataset. 
+
+$\cdot$ baseline.ipynb: executa e testa um modelo baseline.
+
+$\cdot$ Modelo_kNN.ipynb: executa e testa um Classificador k-NN.
+
+$\cdot$ NaiveBayes.ipynb: executa e testa um modelo NaiveBayes.
+
+$\cdot$ Regressão Logística.ipynb: Executa e testa um modelo de regressão logística. 
+
+$\cdot$ Supported Vector Machine.ipynb: Executa e testa um modelo SVM.
+
+$\cdot$ random_forest.ipynb: Executa e testa um modelo de floresta aleatória.
